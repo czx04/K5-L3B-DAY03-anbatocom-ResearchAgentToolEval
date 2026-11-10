@@ -7,7 +7,7 @@ from providers import make_provider
 from tools import load_tool_declarations, to_openai_tools
 from versioning import build_artifact_version
 
-PROVIDER = "openrouter"
+PROVIDER = "openai"
 VERSION_LABEL = "ui"
 HISTORY_WINDOW = 5
 MAX_TOOL_ROUNDS = 4
