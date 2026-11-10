@@ -9,11 +9,11 @@
 
 ## Thành viên
 
-| STT | Họ tên              | MSSV        | Email                   | GitHub          | Vai trò                                              |
-| --: | ------------------- | ----------- | ----------------------- | --------------- | ---------------------------------------------------- |
-|   1 | Dư Văn Hùng         | 2A202603975 | dhit2k4@gmail.com       | `czx04`         | Prompt, tool declaration, eval v0→v3 (C1, C2, C3)    |
-|   2 | Hoàng Ngọc Hiệu     | 2A202603976 |                         | `hoangngochieu` | Tool mới `extract_keywords` + unit test (C4)         |
-|   3 | Bùi Phan Thanh Phúc | 2A202603981 | thanhphuccrkh@gmail.com | `Jancaster1234` | Eval nhóm, UI Streamlit, báo cáo Phần A (C5, C6, C7) |
+| STT | Họ tên              | MSSV        | Email                           | GitHub          | Vai trò                                              |
+| --: | ------------------- | ----------- | ------------------------------- | --------------- | ---------------------------------------------------- |
+|   1 | Dư Văn Hùng         | 2A202603975 | dhit2k4@gmail.com               | `czx04`         | Prompt, tool declaration, eval v0→v3 (C1, C2, C3)    |
+|   2 | Hoàng Ngọc Hiệu     | 2A202603976 | hoangngochieu10012000@gmail.com | `hoangngochieu` | Tool mới `extract_keywords` + unit test (C4)         |
+|   3 | Bùi Phan Thanh Phúc | 2A202603981 | thanhphuccrkh@gmail.com         | `Jancaster1234` | Eval nhóm, UI Streamlit, báo cáo Phần A (C5, C6, C7) |
 
 ## Cá nhân
 
@@ -61,7 +61,7 @@ Ví dụ: `report/team/20241234_NguyenVanAn.md`.
 ### Bằng chứng
 
 - Commit: `1ea2387` (feat: implement extract_keywords tool and associated tests), merge qua PR #2.
-- Báo cáo cá nhân: `report/team/2A202603976_HoangNgocHieu.md` (chưa có)
+- Báo cáo cá nhân: `report/team/2A202603976_HoangNgocHieu.md`
 
 ## BuiPhanThanhPhuc-2A202603981
 
