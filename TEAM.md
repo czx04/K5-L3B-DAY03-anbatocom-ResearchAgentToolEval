@@ -5,15 +5,15 @@
 - Tên nhóm: anbatocom
 - Lớp: L3B
 - Repo nhóm: `K5-L3B-DAY03-anbatocom-ResearchAgentToolEval`
-- URL repo, nhánh nộp, commit chốt: https://github.com/czx04/K5-L3B-DAY03-anbatocom-ResearchAgentToolEval — nhánh `main` — commit chốt: 
+- URL repo, nhánh nộp, commit chốt: https://github.com/czx04/K5-L3B-DAY03-anbatocom-ResearchAgentToolEval — nhánh `main` — commit chốt:
 
 ## Thành viên
 
-| STT | Họ tên | MSSV | Email | GitHub | Vai trò |
-| --: | ------ | ---- | ----- | ------ | ------- |
-|   1 | Dư Văn Hùng | 2A202603975 | dhit2k4@gmail.com | `czx04` | Prompt, tool declaration, eval v0→v3 (C1, C2, C3) |
-|   2 |  |  |  | `hoangngochieu` | Người 2 — Tool mới `extract_keywords` + unit test (C4) |
-|   3 |  |  |  | `Jancaster1234` | Người 3 — Eval nhóm, UI Streamlit, báo cáo Phần A (C5, C6, C7) |
+| STT | Họ tên              | MSSV        | Email                   | GitHub          | Vai trò                                              |
+| --: | ------------------- | ----------- | ----------------------- | --------------- | ---------------------------------------------------- |
+|   1 | Dư Văn Hùng         | 2A202603975 | dhit2k4@gmail.com       | `czx04`         | Prompt, tool declaration, eval v0→v3 (C1, C2, C3)    |
+|   2 | Hoàng Ngọc Hiệu     | 2A202603976 |                         | `hoangngochieu` | Tool mới `extract_keywords` + unit test (C4)         |
+|   3 | Bùi Phan Thanh Phúc | 2A202603981 | thanhphuccrkh@gmail.com | `Jancaster1234` | Eval nhóm, UI Streamlit, báo cáo Phần A (C5, C6, C7) |
 
 ## Cá nhân
 
@@ -46,7 +46,7 @@ Ví dụ: `report/team/20241234_NguyenVanAn.md`.
 - File: `starter_v0/artifacts/system_prompt.md`, `starter_v0/artifacts/tools.yaml`, `starter_v0/artifacts/version_log.csv`.
 - Báo cáo cá nhân: `report/team/2A202603975_DuVanHung.md`.
 
-## HoVaTen-MSSV (GitHub `hoangngochieu`)
+## HoangNgocHieu-2A202603976 (GitHub `hoangngochieu`)
 
 ### Phần việc phụ trách
 
@@ -61,9 +61,9 @@ Ví dụ: `report/team/20241234_NguyenVanAn.md`.
 ### Bằng chứng
 
 - Commit: `1ea2387` (feat: implement extract_keywords tool and associated tests), merge qua PR #2.
-- Báo cáo cá nhân: `report/team/<MSSV>_<HoTen>.md` (chưa có)
+- Báo cáo cá nhân: `report/team/2A202603976_HoangNgocHieu.md` (chưa có)
 
-## HoVaTen-MSSV (GitHub `Jancaster1234`)
+## BuiPhanThanhPhuc-2A202603981
 
 ### Phần việc phụ trách
 
@@ -72,10 +72,10 @@ Ví dụ: `report/team/20241234_NguyenVanAn.md`.
 ### Đóng góp cụ thể
 
 - Viết Phần A của `report/team/group_report.md` (A1–A3).
-- Viết eval case trong `starter_v0/data/eval_group.json` (suite group v3: 10/10 PASS).
+- Viết 9/10 case trong `starter_v0/data/eval_group.json` (G01–G05, GM01–GM04); case GM05 do Dư Văn Hùng viết.
 - Viết UI `starter_v0/app.py` (Streamlit) + thêm dependency vào `requirements.txt`.
 
 ### Bằng chứng
 
 - Commit: `1059b6d` (Phần A), `632eef9` (9 group eval cases), `58f47bf` (Streamlit UI), merge `d89522c`.
-- Báo cáo cá nhân: `report/team/<MSSV>_<HoTen>.md` (chưa có)
+- Báo cáo cá nhân: `report/team/2A202603981_BuiPhanThanhPhuc.md`
