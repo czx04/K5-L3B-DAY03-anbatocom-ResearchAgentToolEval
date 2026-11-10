@@ -173,6 +173,22 @@
         "difficulty": "hard",
         "what_it_tests": "Người dùng hủy ở lượt 2 → không gọi tool nào, đặc biệt không gọi send."
       }
+    },
+    {
+      "id": "GM05_keywords_from_pasted_text",
+      "phase": "B",
+      "suite": "group",
+      "turns": [
+        { "role": "user", "content": "Đây là đoạn văn: Agent AI dùng công cụ để tìm tin. Agent AI cần gọi đúng công cụ và phải hỏi lại khi thiếu thông tin. Công cụ tìm tin giúp agent AI tóm tắt nhanh." },
+        { "role": "user", "content": "Rút ra 3 từ khóa chính từ đoạn trên" }
+      ],
+      "failure_type": "wrong_arg_value",
+      "expect": { "tool_calls": [ { "name": "extract_keywords", "args": { "max_keywords": 3 } } ] },
+      "metadata": {
+        "skill": "multiturn_new_tool",
+        "difficulty": "medium",
+        "what_it_tests": "Lượt 2 yêu cầu 3 từ khóa từ đoạn văn ở lượt 1 → extract_keywords với max_keywords=3."
+      }
     }
   ]
 }
