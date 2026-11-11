@@ -5,7 +5,7 @@
 - Tên nhóm: anbatocom
 - Lớp: L3B
 - Repo nhóm: `K5-L3B-DAY03-anbatocom-ResearchAgentToolEval`
-- URL repo, nhánh nộp, commit chốt: https://github.com/czx04/K5-L3B-DAY03-anbatocom-ResearchAgentToolEval — nhánh `main` — commit chốt:
+- URL repo, nhánh nộp, commit chốt: https://github.com/czx04/K5-L3B-DAY03-anbatocom-ResearchAgentToolEval — nhánh `main` — commit chốt: `380a114`
 
 ## Thành viên
 
